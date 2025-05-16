@@ -32,3 +32,9 @@ function izinIste() {
     }
   });
 }
+
+
+setTimeout(() => {
+    console.log("Veri geldi!");
+    subscribe();
+  }, 7000);
