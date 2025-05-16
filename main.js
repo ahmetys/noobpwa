@@ -18,3 +18,10 @@ function subscribe() {
     }
   });
 }
+
+setTimeout(()=>{
+reg.showNotification('Merhaba!', {
+          body: 'Bu bir sto PWA bildirimidir.',
+          icon: 'icon-192.png'
+        });
+},10000)
